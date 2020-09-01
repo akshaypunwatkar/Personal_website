@@ -1,0 +1,195 @@
+body {
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Cinzel', serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*************************** Navigation bar ***************************/
+
+#brandName {
+	font-family: 'Cinzel', serif;
+	font-weight: 700;
+}
+
+#navLinks{
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
+}
+
+
+/************************** HEADER **************************/
+#header {
+	background: url(../images/body/header-background.jpg) center center / cover no-repeat;
+	background-attachment: fixed;
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
+}
+
+.hr-header {
+	border-top: 2px solid grey;
+	padding-bottom: 10px;
+	width: 80%;
+}
+
+/************************** SECTION **************************/
+
+.section {
+	/* width: 70%; */
+	height: 500px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+
+.section-head {
+	width: 70%;
+	margin: 0 auto;
+	font-family: 'Cinzel', serif;
+	font-weight: 500;
+}
+
+/************************** SECTION - About **************************/
+
+#profileImage {
+	height: 200px;
+  	border-radius: 50%;
+}
+
+#section-about{
+	height: 600px;
+}
+
+#about {
+	/* height: 200px; */
+	/*font-family: 'Cinzel', serif;*/
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+}
+
+/************************* SECTION - Skills *************************/
+.icon {
+	width: 3em;
+	height:3em;
+	fill:currentColor;
+}
+
+/* size of heading for skills */
+.skills-head {
+	font-size: 1.5em;
+}
+
+#section-skill {
+	height: 600px;
+	margin: 0 auto;
+}
+
+#section-skill h4 {
+	font-size: 1.2em;
+	font-weight: 800;
+}
+
+#skills {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em;
+	height: 300px;
+}
+
+/************************* SECTION - Education *************************/
+
+.col-icon {
+	height: 80%;
+	width: 80%;
+}
+
+#section-education{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em
+}
+
+/************************* SECTION - Experience *************************/
+
+#section-experiences {
+	height: 750px;
+	margin: 0 auto;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em
+}
+
+/************************* SECTION - Projects *************************/
+
+#section-projects {
+	height: 1500px;
+	margin: 0 auto;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em
+}
+
+#section-projects .card-title {
+	font-weight: 700
+}
+
+
+
+
+/*************************** FOOTER ***************************/
+#footer {
+	background-color: black;
+	color: white;
+}
+
+.footer {
+	padding: 10px 0;
+  }
+  .footer a {
+	color: #70726F;
+	font-size: 20px;
+	padding: 10px;
+	/* border-right: 1px solid #70726F; */
+	transition: all .5s ease;
+  }
+  /* .footer a:first-child {
+	border-left: 1px solid #70726F;
+  } */
+  .footer a:hover {
+	color: white;
+  }
+
+/****************************************************************************/
+/*************************** Background gradients ***************************/
+.b-deep-space {
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.b-margo {
+	/* border: 2px solid grey; */
+	background: #FFEFBA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.b-telegram {
+	background: #1c92d2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.b-moonrise {
+	background: #DAE2F8;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.b-delicate {
+	background: #D3CCE3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
